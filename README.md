@@ -24,9 +24,8 @@ Each day's progress will be documented in the **logs/** directory with details s
 - Code snippets (if applicable)
 
 ## Connect
-📧 **Email:** your.email@example.com  
-🐦 **Twitter:** [@yourhandle](https://twitter.com/yourhandle)  
-🔗 **LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)  
+📧 **Email:** soyamshubhamswain@gmail.com 
+🔗 **LinkedIn:** [Soyam Shubham Swain]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/soyam-shubham-swain-09226226b/))  
 
 ---
 🚀 **Let’s get started and build something amazing!**
