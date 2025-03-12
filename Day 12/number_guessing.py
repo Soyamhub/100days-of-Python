@@ -10,13 +10,14 @@ def hardLevel():
         guess = int(input("Make a guess! "))
         if rand_num == guess:
             print(f"Guessed it right! The answer was {rand_num}")
-            break
+            return
         elif guess > rand_num:
             print(f"Too high!")
-            print("You")
         else:
             print(f"Too low!") 
-        print("Guess Again!")      
+        print("Guess Again")
+    print("Game Over!")        
+              
 
 def easyLevel():
     for i in range(10,0,-1):
@@ -24,18 +25,21 @@ def easyLevel():
         guess = int(input("Make a guess! "))
         if rand_num == guess:
             print(f"Guessed it right! The answer was {rand_num}")
-            break
+            return
         elif guess > rand_num:
             print(f"Too high!")
         else:
             print(f"Too low!")   
-        print("Guess Again!")   
+        print("Guess Again!") 
+    print("Game Over!")      
 
 difficulty = input("Choose The difficulty! 'Easy' or 'Hard': ").lower()
 if difficulty == 'hard':
     hardLevel()
-else:
+elif difficulty == 'easy':
     easyLevel()    
+else:
+    print("Wrong input!!!!")    
 
   
 
