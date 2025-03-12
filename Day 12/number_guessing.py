@@ -1,6 +1,8 @@
 import random, art
 print(art.logo)
 
+print("Welcome to the Number Guessing Game!")
+print("I'm thinking of a number between 1 and 100.")
 rand_num = random.randint(1,100)
 def hardLevel():
     for i in range(5,0,-1):
